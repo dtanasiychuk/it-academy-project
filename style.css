@@ -1,0 +1,100 @@
+html {
+  font-size: 0.9375em; 15px; /*шрифт/16*/
+  line-height:1.7333;
+}
+body {
+  width: 100%;
+  font-family: "Montserrat Light";
+}
+.header {
+  max-width: 1170px; /*ширина контейнеру*/
+  padding: 0 15px; /*відступи для контейнеру* shift control slesh*/
+  min-width: 320px; /*мінімальна ширина для адаптиву*/
+}
+.conteiner {
+  width: 1170px;
+  margin: 0 auto;
+}
+.header-top {
+  background-color: #2b2b2b;
+  font-size: 14px;
+  line-height: 34px;
+  height: 34px;
+}
+.header-phone {
+  float: left;
+  color: #5d5d5d;
+}
+.header-user-links {
+  float: right;
+}
+.header-user-links a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #666666;
+}
+.header-bottom {
+  background-color: #232323;
+}
+.header-bottom img{
+  float: left;
+  margin-top: 32px;
+}
+.header-bottom input{
+ margin-top: 32px;
+}
+input {
+  border-radius: 50px;
+  border: 1px solid #323232;
+  height: 46px;
+  font-size: 13px;
+  font-family: "Montserrat Light";
+  float: right;
+  width: 248px;
+  padding-left: 25px;
+  background-color: #232323;
+  color: #666666;
+
+}
+.headermenu {
+  height: 57px;
+  clear: both;
+
+
+}
+.headermenu .menu {
+  margin-bottom: 45px;
+  float: left;
+
+}
+.menu ul li {
+  list-style-type: none;
+  text-decoration: none;
+  float: left;
+}
+.headermenu .menu li a {
+  font-size: 16px;
+  color: #f5f5f5;
+  margin-right: 47px;
+  text-decoration: none;
+}
+.headermenu .menu .active {
+  color: #be926f;
+
+}
+.newcollection .conteiner{
+  background-image: url (img/header-background.png);
+  background-repeat: no-repeat;
+  height: 478px;
+  width: 1170px;
+}
+/*
+.featured-produkts {
+
+}
+.featured-produkts .title {
+  font-size: 1.13em;
+  line-height: 1.29; 17/22
+}
+*/
+
